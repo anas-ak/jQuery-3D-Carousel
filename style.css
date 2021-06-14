@@ -1,0 +1,46 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, #000, #555);
+}
+.carousel-3d {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #2d4aff;
+  margin: 200px auto;
+}
+.carousel-3d .carousel-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  height: 200px;
+  margin-left: -150px;
+  margin-top: -100px;
+  background-size: cover;
+}
+.carousel-3d .carousel-item:nth-child(1) {
+  background-image: url("http://news.cctvnews.cn/news/3d457a4d3149544d/img/73233fb6-0afe-41d7-900d-ae3e2d088313.jpg");
+}
+.carousel-3d .carousel-item:nth-child(2) {
+  background-image: url("http://news.cctvnews.cn/news/3d55444e3249544d/img/ea65c16b-1a90-47ba-9997-46ddf0a7a32f.jpg");
+}
+.carousel-3d .carousel-item:nth-child(3) {
+  background-image: url("http://news.cctvnews.cn/news/3d55444e3249544d/img/c91d9953-7b36-4da4-9174-7574b8239e2c.jpg");
+}
+.carousel-3d .carousel-item:nth-child(4) {
+  background-image: url("http://news.cctvnews.cn/news/3d676a4d7949544d/img/b0c3e3c3-0161-4f15-bcd4-4380a3ca0bd2.jpg");
+}
+.carousel-3d .carousel-item:nth-child(1) {
+  background-color: #961c1c;
+}
+.carousel-3d .carousel-item:nth-child(2) {
+  background-color: #551010;
+}
+.carousel-3d .carousel-item:nth-child(3) {
+  background-color: #150404;
+}
+.carousel-3d .carousel-item:nth-child(4) {
+  background-color: #000;
+}
